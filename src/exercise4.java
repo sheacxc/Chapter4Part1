@@ -6,7 +6,7 @@ public class exercise4 {
         int count=30;
 
         System.out.print(num1 + " " + num2);
-        int i=0;
+        int i;
         for (i=2; i<=count; ++i){
             num3= num2 + num1;
             System.out.print(" " + num3);

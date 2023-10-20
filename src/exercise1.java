@@ -5,7 +5,7 @@ public class exercise1 {
         System.out.println("Enter an integer: ");
         int num= sc.nextInt();
 
-        if(num%2!=0 || num%3!=0) {
+        if(num%2!=0 || num%3!=0){
             System.out.println(num + " is a prime number.");
         } else{
             System.out.println(num + " is not a prime number.");
